@@ -1,0 +1,14 @@
+{
+  "auditStatus": "NOT VERIFIED AGAINST THE LIVE PRODUCT. aifekr.com was unreachable from the production environment (blocked by network policy), and no AIFekr source repository was provided. Every product statement below is the influencer's spoken claim or comes from the supplied product brief. Confirm each one before paid promotion.",
+  "features": [
+    {"feature": "AI chat including ChatGPT", "evidence": "spoken 43.0s «جدا از اینکه چت‌جی‌پی‌تی داره»", "onScreen": "AI hub chip 'ChatGPT' (text label, no logo)", "status": "spoken-claim, verify model availability and plan conditions"},
+    {"feature": "Other AI tools for image / audio content", "evidence": "spoken 46.1–49.3s", "onScreen": "chips «تولید تصویر», «تولید صوت», «و کلی امکان دیگه»", "status": "spoken-claim"},
+    {"feature": "Student panel", "evidence": "spoken 55.0–57.0s; also in the Student master context (AIFekr Student)", "onScreen": "«پنل دانشجویی», 'AIFekr Student – YOUR AI UNIVERSITY'", "status": "spoken-claim + brief"},
+    {"feature": "Study planning", "evidence": "spoken 58.6s «برنامه‌ریزی بکنید»; brief: Study Planner", "onScreen": "«برنامه‌ریزی درسی»", "status": "spoken-claim + brief"},
+    {"feature": "Upload / keep lecture notes", "evidence": "spoken 59.5s «جزواتتون اونجا بذارید»; brief: Study Materials", "onScreen": "«جزوه‌هات، یک‌جا»", "status": "spoken-claim + brief"},
+    {"feature": "Credits on sign-up with code", "evidence": "spoken 39.2s «کردیت بگیرید»", "onScreen": "subtitle only. No graphic promises credits", "status": "spoken-claim, verify credit grant for CFA"},
+    {"feature": "Free use of features", "evidence": "spoken 69.7s «به رایگان استفاده کنید»", "onScreen": "subtitle only. Deliberately not emphasised", "status": "spoken-claim, verify which features are free"},
+    {"feature": "Invitation code CFA", "evidence": "campaign brief (mandatory)", "onScreen": "ReferralCodeCard: «کد دعوت اختصاصی ثبت‌نام» CFA «هنگام ثبت‌نام وارد کنید»", "status": "brief, verify the code field exists at registration"}
+  ],
+  "notShown": ["Claude (not spoken)", "Quizzes / flashcards / summaries / Academy / certificates (not spoken)", "Prices of AIFekr plans (no verified pricing)", "Real dashboard UI (no screenshots available; no fabricated UI was drawn)"]
+}

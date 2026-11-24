@@ -1,0 +1,62 @@
+{
+  "name": "AIFekr Reference Style v1",
+  "derivedFrom": "assets/source/reference.mp4 (CYPRUS FREE APPLY talking-head reel, 64.7s, 1080x1920, 30fps)",
+  "output": { "width": 1080, "height": 1920, "fps": 30, "codec": "h264", "pixelFormat": "yuv420p", "crf": 16, "audioCodec": "aac", "audioBitrate": "256k" },
+  "colors": {
+    "orange": "#FF6B00",
+    "orangeSoft": "#FF8A33",
+    "graphite": "#292D33",
+    "graphite2": "#363B42",
+    "charcoal": "#17191D",
+    "white": "#FFFFFF",
+    "textSecondary": "#B8BEC7",
+    "glassFill": "rgba(23,25,29,0.78)",
+    "glassStroke": "rgba(255,255,255,0.10)",
+    "cardLight": "rgba(236,238,241,0.92)"
+  },
+  "typography": {
+    "persian": "Vazirmatn",
+    "latin": "Inter",
+    "captionSize": 64,
+    "captionWeight": 800,
+    "bigWordSize": 150,
+    "headlineSize": 76,
+    "cardTitleSize": 44,
+    "chipSize": 40,
+    "lineHeight": 1.35
+  },
+  "layout": {
+    "safeArea": { "left": 90, "right": 170, "top": 220, "bottom": 400 },
+    "topZone": { "y": 235, "height": 380, "centerX": 500, "maxWidth": 800 },
+    "captionZone": { "centerY": 1410, "maxWidth": 860 },
+    "watermark": { "x": 56, "y": 96, "height": 118 },
+    "footageCropY": 27
+  },
+  "grade": {
+    "ffmpeg": "eq=contrast=1.07:brightness=-0.03:saturation=0.94,colorbalance=rs=0.03:gs=0.0:bs=-0.03:rm=0.02:bm=-0.02,unsharp=5:5:0.55:5:5:0.0",
+    "bottomGradient": { "from": 0.52, "to": 1.0, "color": "rgba(14,15,18,0.94)" },
+    "topGradient": { "from": 0.0, "to": 0.36, "color": "rgba(12,13,16,0.55)" },
+    "vignette": 0.42
+  },
+  "motion": {
+    "durations": { "micro": 6, "cardIn": 12, "cardOut": 9, "layout": 15, "logoReveal": 36, "wordStagger": 3 },
+    "springs": {
+      "pop": { "damping": 12, "stiffness": 180, "mass": 0.7 },
+      "smooth": { "damping": 200, "stiffness": 120, "mass": 1 },
+      "bouncy": { "damping": 9, "stiffness": 160, "mass": 0.8 }
+    },
+    "punchIn": { "levels": [1.0, 1.075, 1.0, 1.045], "drift": 0.018 },
+    "captionReveal": "rtl-word-stagger-with-blur",
+    "bigWord": "scale-bounce-orange-glow",
+    "outro": "whip-slide-left-to-brand-then-lens-flare"
+  },
+  "sceneTemplates": {
+    "notificationCard": "Frosted message card (reference 00:02-00:10) → adapted as chat card",
+    "logoCards": "Pop-in square cards side by side (reference IELTS/TOEFL 00:18-00:22) → AI tool chips",
+    "wordStagger": "Spaced uppercase list with glitch glow (reference PTE SAT ACE) → feature list",
+    "neonBox": "Gradient neon outline drawing around a key phrase (reference 'رایگانه' 00:41)",
+    "bigGlowWord": "Large glowing emphasis word in caption zone (reference 'ولی', 'ومجدد')",
+    "brandOutro": "Footage slides left revealing brand panel, then lens-flare to black (reference 00:62-00:64)"
+  },
+  "audio": { "targetLUFS": -14, "truePeak": -1.0, "sfxVolume": 0.32, "music": null }
+}

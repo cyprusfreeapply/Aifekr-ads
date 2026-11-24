@@ -1,0 +1,6 @@
+{
+  "method": "Visual inspection of 2-second contact sheets (analysis/frames/new). No automatic pose tracking was run.",
+  "face": {"yRange1080x1920": [650, 1190], "note": "Stable for the whole clip. Nothing is placed over the eyes or mouth."},
+  "hands": {"yRange1080x1920": [1150, 1920], "note": "Gestures stay in front of the chest. Once (~00:23) a hand rises to the shoulder, below the top card zone."},
+  "zones": {"topCards": [235, 615], "captions": "centre y=1410 (max 2–3 lines, ≤1520)", "watermark": [96, 214]}
+}

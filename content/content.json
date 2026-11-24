@@ -1,0 +1,121 @@
+{
+  "productionId": "aifekr-student-cfa-2026-11",
+  "brand": {
+    "name": "AIFekr",
+    "nameFa": "ای‌آی‌فکر",
+    "website": "AIFekr.com",
+    "instagram": "@aifekrofficial",
+    "tagline": "YOUR AI UNIVERSITY",
+    "productName": "AIFekr Student",
+    "referralCode": "CFA",
+    "logo": "assets/aifekr-logo.png",
+    "logoMark": "assets/aifekr-mark.png"
+  },
+  "source": {
+    "video": "assets/source/influencer.mp4",
+    "fps": 30,
+    "note": "All times below are in SOURCE seconds (from analysis/transcript.json + silencedetect). They are remapped automatically to each variant's edit."
+  },
+  "variants": {
+    "full": {
+      "file": "AIFekr-Academic-Influencer-CFA-Full.mp4",
+      "segments": [[0,3.40],[3.98,9.45],[9.95,14.08],[14.75,15.42],[16.30,19.85],[20.95,26.14],[26.49,33.30],[33.73,34.41],[34.96,37.05],[38.27,39.17],[39.71,40.71],[41.20,41.47],[42.07,46.98],[47.60,55.50],[56.08,62.97],[63.74,65.07],[65.52,69.05],[69.55,70.75]],
+      "outroSeconds": 4.8,
+      "captions": true
+    },
+    "nocaptions": {
+      "file": "AIFekr-Academic-Influencer-CFA-NoCaptions.mp4",
+      "segmentsFrom": "full",
+      "outroSeconds": 4.8,
+      "captions": false
+    },
+    "short": {
+      "file": "AIFekr-Academic-Influencer-CFA-Short.mp4",
+      "segments": [[0,3.40],[3.98,7.63],[20.95,26.14],[26.49,33.30],[54.77,55.50],[56.08,62.97],[63.74,65.07],[65.52,69.05],[69.55,70.75]],
+      "outroSeconds": 4.8,
+      "captions": true
+    },
+    "story": {
+      "file": "AIFekr-Academic-Influencer-CFA-Story.mp4",
+      "segments": [[30.30,33.30],[54.77,55.50],[56.08,60.75]],
+      "outroSeconds": 5.4,
+      "captions": true,
+      "storyMode": true
+    }
+  },
+  "captions": [
+    { "s": 0.00, "e": 1.34, "t": "الان دیگه {ChatGPT}" },
+    { "s": 1.34, "e": 3.40, "t": "جزء جدانشدنی زندگی همه‌ی ما هست" },
+    { "s": 4.11, "e": 5.70, "t": "مخصوصاً اگه {دانشجویی} باشی" },
+    { "s": 5.70, "e": 7.63, "t": "که تازه مهاجرت کردی {خارج کشور}" },
+    { "s": 8.11, "e": 9.45, "t": "هم نیاز داری برای تو {ترجمه} بکنه" },
+    { "s": 10.07, "e": 12.10, "t": "هم نیاز داری برای تو {جزوه‌ها} رو آماده بکنه" },
+    { "s": 12.22, "e": 14.08, "t": "هم نیاز داری برای تو {حل تمرین} انجام بده" },
+    { "s": 14.75, "e": 17.38, "t": "و ورژن رایگانش هم" },
+    { "s": 17.38, "e": 19.85, "t": "خب {محدودیت} زمانی و حالا تعداد داره" },
+    { "s": 20.95, "e": 23.42, "t": "بعضاً هم اول مهاجرت حالا {سخته}" },
+    { "s": 23.42, "e": 26.14, "t": "اگه بخوای که مثلاً ماهی {۲۰ یورو}" },
+    { "s": 26.49, "e": 28.88, "t": "فقط بابت تمدید اشتراک پرو هزینه بکنی" },
+    { "s": 28.88, "e": 29.85, "t": "راهکارش چیه؟", "big": true },
+    { "s": 30.38, "e": 32.14, "t": "یه {هوش مصنوعی ایرانی} داریم" },
+    { "s": 32.14, "e": 33.30, "t": "به اسم {ای‌آی‌فکر}" },
+    { "s": 33.73, "e": 37.05, "t": "شما می‌تونید از طریق {کدی} که من توی کپشن نوشتم" },
+    { "s": 38.27, "e": 40.71, "t": "وارد بشید، کردیت بگیرید" },
+    { "s": 41.20, "e": 44.12, "t": "و جدا از اینکه {ChatGPT} داره" },
+    { "s": 44.12, "e": 46.98, "t": "چند تا از {هوش مصنوعی‌های دیگه} که برای تولید محتوای" },
+    { "s": 47.60, "e": 49.50, "t": "{تصویری}، {صوتی}" },
+    { "s": 49.50, "e": 53.18, "t": "یا کلی از موارد دیگه رو می‌تونید ازش استفاده بکنید" },
+    { "s": 53.18, "e": 55.50, "t": "و جدا از همه این موارد، پنل داره" },
+    { "s": 56.08, "e": 57.16, "t": "پنل دانشجویی داره", "big": true, "neon": true },
+    { "s": 57.16, "e": 58.60, "t": "که شما ازش استفاده بکنید" },
+    { "s": 58.60, "e": 60.75, "t": "{برنامه‌ریزی} بکنید، {جزواتتون} اونجا بذارید" },
+    { "s": 60.75, "e": 62.97, "t": "و کلی {امکان خفن} دیگه" },
+    { "s": 63.74, "e": 65.07, "t": "که کافیه {کلیک} بکنید" },
+    { "s": 65.52, "e": 67.94, "t": "{لینک معرفی} ما رو وارد بکنید" },
+    { "s": 67.94, "e": 70.75, "t": "و از امکاناتش به رایگان استفاده کنید" }
+  ],
+  "scenes": [
+    { "id": "hook", "type": "hookHeadline", "s": 0.05, "e": 3.40, "variants": ["full", "nocaptions", "short"],
+      "lines": ["دانشجویی و هنوز فقط از", "ChatGPT", "استفاده می‌کنی؟"], "sfx": [[0.05, "whoosh"], [0.30, "pop"]] },
+    { "id": "storyHook", "type": "hookHeadline", "s": 30.30, "e": 32.40, "variants": ["story"],
+      "lines": ["دانشجویی؟", "این هوش مصنوعی", "برای توئه!"], "sfx": [[30.30, "whoosh"]] },
+    { "id": "student", "type": "chips", "s": 4.11, "e": 7.63,
+      "items": [{ "at": 4.84, "icon": "cap", "label": "دانشجو" }, { "at": 6.20, "icon": "plane", "label": "مهاجرت" }, { "at": 6.80, "icon": "globe", "label": "خارج از کشور" }],
+      "sfx": [[4.84, "pop"], [6.20, "pop"], [6.80, "pop"]] },
+    { "id": "needs", "type": "chatCard", "s": 8.05, "e": 14.08, "title": "ChatGPT",
+      "items": [{ "at": 8.82, "label": "این متن رو ترجمه کن" }, { "at": 10.98, "label": "جزوه‌م رو آماده کن" }, { "at": 13.10, "label": "این تمرین رو حل کن" }],
+      "sfx": [[8.05, "whoosh"], [8.82, "click"], [10.98, "click"], [13.10, "click"]] },
+    { "id": "limits", "type": "limitCard", "s": 14.75, "e": 19.85, "title": "نسخه رایگان",
+      "items": [{ "at": 17.54, "icon": "clock", "label": "محدودیت زمانی" }, { "at": 19.28, "icon": "hash", "label": "محدودیت تعداد" }],
+      "sfx": [[14.80, "whoosh"], [17.54, "tick"], [19.28, "tick"]] },
+    { "id": "price", "type": "priceCard", "s": 21.00, "e": 28.88, "countAt": 24.82, "value": 20, "currency": "€",
+      "unit": "در ماه", "labelAt": 27.28, "label": "فقط برای تمدید اشتراک Pro",
+      "sfx": [[21.05, "whoosh"], [24.82, "riser"], [27.28, "pop"]] },
+    { "id": "logo", "type": "logoReveal", "s": 30.38, "e": 35.15, "revealAt": 32.48,
+      "chip": "هوش مصنوعی ایرانی", "chipAt": 30.56,
+      "sfx": [[30.56, "pop"], [32.40, "impact"]] },
+    { "id": "code1", "type": "referral", "s": 35.15, "e": 40.71, "compact": true, "sfx": [[35.20, "whoosh"]] },
+    { "id": "hub", "type": "aiHub", "s": 42.07, "e": 53.18, "headline": "چند هوش مصنوعی، یک پلتفرم", "headlineAt": 44.12,
+      "items": [{ "at": 43.04, "label": "ChatGPT", "icon": "chat" }, { "at": 47.73, "label": "تولید تصویر", "icon": "image" }, { "at": 48.82, "label": "تولید صوت", "icon": "audio" }, { "at": 49.58, "label": "و کلی امکان دیگه", "icon": "plus" }],
+      "sfx": [[42.10, "whoosh"], [43.04, "pop"], [47.73, "pop"], [48.82, "pop"], [49.58, "pop"]] },
+    { "id": "panel", "type": "studentPanel", "s": 54.77, "e": 62.97, "titleAt": 55.0,
+      "items": [{ "at": 58.60, "icon": "calendar", "label": "برنامه‌ریزی درسی" }, { "at": 59.52, "icon": "doc", "label": "جزوه‌هات، یک‌جا" }, { "at": 61.24, "icon": "spark", "label": "و کلی امکان دیگه" }],
+      "sfx": [[55.00, "whoosh"], [56.10, "impact"], [58.60, "pop"], [59.52, "pop"], [61.24, "pop"]] },
+    { "id": "cta", "type": "ctaClick", "s": 63.74, "e": 70.75, "clickAt": 64.12, "codeAt": 65.52,
+      "sfx": [[63.76, "whoosh"], [64.12, "click"], [65.52, "impact"]] }
+  ],
+  "outro": {
+    "headline": ["دانشجویی؟", "هوشمندانه‌تر درس بخون!"],
+    "subline": "پنل دانشجویی ای‌آی‌فکر",
+    "instruction": "همین حالا در AIFekr.com ثبت‌نام کن",
+    "codeLabel": "کد دعوت ثبت‌نام"
+  },
+  "referralCard": {
+    "title": "کد دعوت اختصاصی ثبت‌نام",
+    "hint": "هنگام ثبت‌نام وارد کنید"
+  },
+  "cover": {
+    "frameAt": 32.6,
+    "headline": ["دانشجویی؟", "این هوش مصنوعی رو", "از دست نده!"]
+  }
+}
