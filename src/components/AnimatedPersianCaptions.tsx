@@ -1,6 +1,6 @@
 import React from 'react';
 import { AbsoluteFill, interpolate, useCurrentFrame } from 'remotion';
-import { C, content, EN, FA, isLatin, mapWindow, theme, Variant } from '../config';
+import { C, content, EN, FA, FPS, isLatin, mapWindow, theme, Variant } from '../config';
 import { clamp, sp } from './anim';
 
 type Token = { text: string; hl: boolean };
@@ -84,6 +84,8 @@ const BigPhrase: React.FC<{ text: string; dur: number; f: number; neon?: boolean
 export const AnimatedPersianCaptions: React.FC<{ v: Variant }> = ({ v }) => {
   const frame = useCurrentFrame();
   const active = content.captions
+    // only captions whose spoken start survives in this cut (prevents showing words that were edited out)
+    .filter((c) => v.segments.some(([s, e]) => c.s * FPS >= s - 0.5 * FPS && c.s * FPS < e))
     .map((c) => ({ c, w: mapWindow(v, c.s, c.e) }))
     .find(({ w }) => w.dur > 3 && frame >= w.from && frame < w.to);
   if (!active) return null;

@@ -27,7 +27,7 @@ The framing is stable and handheld-free, in a bright home interior. The face sit
 Negative space: the white wall and ceiling above the head (y ≈ 235–620 after the 1080×1920 upscale). Cards go there on dark glass so they stay readable against the bright wall.
 Captions sit at chest height (y ≈ 1410) over a dark bottom gradient, as in the reference.
 
-Pauses were found with `silencedetect` (−35 dB, ≥0.35 s): 25 of them. 17 longer pauses (about 11.9 s in total) were trimmed with ~0.12 s of padding left on each side. Every jump cut is hidden by alternating punch-in levels (1.00 / 1.075 / 1.00 / 1.045) plus a slow drift.
+Pauses were found with `silencedetect` (−35 dB, ≥0.35 s): 25 of them. 17 longer pauses (about 10.8 s) plus about 1.2 s of trailing silence were trimmed with ~0.12 s of padding left on each side. Every jump cut is hidden by alternating punch-in levels (1.00 / 1.075 / 1.00 / 1.045) plus a slow drift.
 The order of the dialogue is never changed.
 
 ## 3. Transcription

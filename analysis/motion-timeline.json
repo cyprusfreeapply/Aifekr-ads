@@ -3,91 +3,18 @@
  "fps": 30,
  "variants": {
   "full": {
+   "file": "AIFekr-Academic-Influencer-CFA-Full.mp4",
    "durationSeconds": 64.8,
    "speechSeconds": 60.0,
-   "keptSourceSegments": [
-    [
-     0,
-     3.4
-    ],
-    [
-     3.98,
-     9.45
-    ],
-    [
-     9.95,
-     14.08
-    ],
-    [
-     14.75,
-     15.42
-    ],
-    [
-     16.3,
-     19.85
-    ],
-    [
-     20.95,
-     26.14
-    ],
-    [
-     26.49,
-     33.3
-    ],
-    [
-     33.73,
-     34.41
-    ],
-    [
-     34.96,
-     37.05
-    ],
-    [
-     38.27,
-     39.17
-    ],
-    [
-     39.71,
-     40.71
-    ],
-    [
-     41.2,
-     41.47
-    ],
-    [
-     42.07,
-     46.98
-    ],
-    [
-     47.6,
-     55.5
-    ],
-    [
-     56.08,
-     62.97
-    ],
-    [
-     63.74,
-     65.07
-    ],
-    [
-     65.52,
-     69.05
-    ],
-    [
-     69.55,
-     70.75
-    ]
-   ],
    "scenes": [
     {
      "id": "hook",
      "template": "hookHeadline",
-     "source": [
+     "sourceSeconds": [
       0.05,
       3.4
      ],
-     "output_seconds": [
+     "outputSeconds": [
       0.07,
       3.4
      ],
@@ -103,11 +30,11 @@
     {
      "id": "student",
      "template": "chips",
-     "source": [
+     "sourceSeconds": [
       4.11,
       7.63
      ],
-     "output_seconds": [
+     "outputSeconds": [
       3.53,
       7.07
      ],
@@ -124,11 +51,11 @@
     {
      "id": "needs",
      "template": "chatCard",
-     "source": [
+     "sourceSeconds": [
       8.05,
       14.08
      ],
-     "output_seconds": [
+     "outputSeconds": [
       7.5,
       13.03
      ],
@@ -147,11 +74,11 @@
     {
      "id": "limits",
      "template": "limitCard",
-     "source": [
+     "sourceSeconds": [
       14.75,
       19.85
      ],
-     "output_seconds": [
+     "outputSeconds": [
       13.03,
       17.27
      ],
@@ -168,11 +95,11 @@
     {
      "id": "price",
      "template": "priceCard",
-     "source": [
+     "sourceSeconds": [
       21.0,
       28.88
      ],
-     "output_seconds": [
+     "outputSeconds": [
       17.37,
       24.87
      ],
@@ -190,11 +117,11 @@
     {
      "id": "logo",
      "template": "logoReveal",
-     "source": [
+     "sourceSeconds": [
       30.38,
       35.15
      ],
-     "output_seconds": [
+     "outputSeconds": [
       26.37,
       30.17
      ],
@@ -211,11 +138,11 @@
     {
      "id": "code1",
      "template": "referral",
-     "source": [
+     "sourceSeconds": [
       35.15,
       40.71
      ],
-     "output_seconds": [
+     "outputSeconds": [
       30.17,
       33.97
      ],
@@ -230,11 +157,11 @@
     {
      "id": "hub",
      "template": "aiHub",
-     "source": [
+     "sourceSeconds": [
       42.07,
       53.18
      ],
-     "output_seconds": [
+     "outputSeconds": [
       34.23,
       44.7
      ],
@@ -255,16 +182,16 @@
     {
      "id": "panel",
      "template": "studentPanel",
-     "source": [
+     "sourceSeconds": [
       54.77,
       62.97
      ],
-     "output_seconds": [
+     "outputSeconds": [
       46.3,
       53.93
      ],
      "spoken": [
-      "و جدا از همه این موارد، پنل داره",
+      "پنل داره",
       "پنل دانشجویی داره",
       "که شما ازش استفاده بکنید",
       "برنامه‌ریزی بکنید، جزواتتون اونجا بذارید",
@@ -281,11 +208,11 @@
     {
      "id": "cta",
      "template": "ctaClick",
-     "source": [
+     "sourceSeconds": [
       63.74,
       70.75
      ],
-     "output_seconds": [
+     "outputSeconds": [
       53.93,
       60.0
      ],
@@ -302,27 +229,239 @@
     },
     {
      "id": "outro",
-     "template": "brandOutro(whip→logo→CFA→lens flare)",
-     "output_seconds": [
+     "template": "brandOutro (whip → logo → headline → CFA card → lens flare)",
+     "outputSeconds": [
       60.0,
       64.8
      ]
+    }
+   ],
+   "captions": [
+    {
+     "outputSeconds": [
+      0.0,
+      1.33
+     ],
+     "text": "الان دیگه ChatGPT"
+    },
+    {
+     "outputSeconds": [
+      1.33,
+      3.4
+     ],
+     "text": "جزء جدانشدنی زندگی همه‌ی ما هست"
+    },
+    {
+     "outputSeconds": [
+      3.53,
+      5.13
+     ],
+     "text": "مخصوصاً اگه دانشجویی باشی"
+    },
+    {
+     "outputSeconds": [
+      5.13,
+      7.07
+     ],
+     "text": "که تازه مهاجرت کردی خارج کشور"
+    },
+    {
+     "outputSeconds": [
+      7.53,
+      8.87
+     ],
+     "text": "هم نیاز داری برای تو ترجمه بکنه"
+    },
+    {
+     "outputSeconds": [
+      9.03,
+      11.07
+     ],
+     "text": "هم نیاز داری برای تو جزوه‌ها رو آماده بکنه"
+    },
+    {
+     "outputSeconds": [
+      11.2,
+      13.03
+     ],
+     "text": "هم نیاز داری برای تو حل تمرین انجام بده"
+    },
+    {
+     "outputSeconds": [
+      13.03,
+      14.8
+     ],
+     "text": "و ورژن رایگانش هم"
+    },
+    {
+     "outputSeconds": [
+      14.8,
+      17.27
+     ],
+     "text": "خب محدودیت زمانی و حالا تعداد داره"
+    },
+    {
+     "outputSeconds": [
+      17.3,
+      19.8
+     ],
+     "text": "بعضاً هم اول مهاجرت حالا سخته"
+    },
+    {
+     "outputSeconds": [
+      19.8,
+      22.5
+     ],
+     "text": "اگه بخوای که مثلاً ماهی ۲۰ یورو"
+    },
+    {
+     "outputSeconds": [
+      22.5,
+      24.87
+     ],
+     "text": "فقط بابت تمدید اشتراک پرو هزینه بکنی"
+    },
+    {
+     "outputSeconds": [
+      24.87,
+      25.83
+     ],
+     "text": "راهکارش چیه؟"
+    },
+    {
+     "outputSeconds": [
+      26.37,
+      28.13
+     ],
+     "text": "یه هوش مصنوعی ایرانی داریم"
+    },
+    {
+     "outputSeconds": [
+      28.13,
+      29.3
+     ],
+     "text": "به اسم ای‌آی‌فکر"
+    },
+    {
+     "outputSeconds": [
+      29.3,
+      32.03
+     ],
+     "text": "شما می‌تونید از طریق کدی که من توی کپشن نوشتم"
+    },
+    {
+     "outputSeconds": [
+      32.07,
+      33.97
+     ],
+     "text": "وارد بشید، کردیت بگیرید"
+    },
+    {
+     "outputSeconds": [
+      33.97,
+      36.3
+     ],
+     "text": "و جدا از اینکه ChatGPT داره"
+    },
+    {
+     "outputSeconds": [
+      36.3,
+      39.13
+     ],
+     "text": "چند تا از هوش مصنوعی‌های دیگه که برای تولید محتوای"
+    },
+    {
+     "outputSeconds": [
+      39.13,
+      41.03
+     ],
+     "text": "تصویری، صوتی"
+    },
+    {
+     "outputSeconds": [
+      41.03,
+      44.7
+     ],
+     "text": "یا کلی از موارد دیگه رو می‌تونید ازش استفاده بکنید"
+    },
+    {
+     "outputSeconds": [
+      44.7,
+      46.3
+     ],
+     "text": "و جدا از همه این موارد"
+    },
+    {
+     "outputSeconds": [
+      46.3,
+      47.03
+     ],
+     "text": "پنل داره"
+    },
+    {
+     "outputSeconds": [
+      47.03,
+      48.13
+     ],
+     "text": "پنل دانشجویی داره"
+    },
+    {
+     "outputSeconds": [
+      48.13,
+      49.57
+     ],
+     "text": "که شما ازش استفاده بکنید"
+    },
+    {
+     "outputSeconds": [
+      49.57,
+      51.7
+     ],
+     "text": "برنامه‌ریزی بکنید، جزواتتون اونجا بذارید"
+    },
+    {
+     "outputSeconds": [
+      51.7,
+      53.93
+     ],
+     "text": "و کلی امکان خفن دیگه"
+    },
+    {
+     "outputSeconds": [
+      53.93,
+      55.27
+     ],
+     "text": "که کافیه کلیک بکنید"
+    },
+    {
+     "outputSeconds": [
+      55.27,
+      57.67
+     ],
+     "text": "لینک معرفی ما رو وارد بکنید"
+    },
+    {
+     "outputSeconds": [
+      57.67,
+      60.0
+     ],
+     "text": "و از امکاناتش به رایگان استفاده کنید"
     }
    ]
   },
   "nocaptions": {
+   "file": "AIFekr-Academic-Influencer-CFA-NoCaptions.mp4",
    "durationSeconds": 64.8,
    "speechSeconds": 60.0,
-   "keptSourceSegments": "= full",
    "scenes": [
     {
      "id": "hook",
      "template": "hookHeadline",
-     "source": [
+     "sourceSeconds": [
       0.05,
       3.4
      ],
-     "output_seconds": [
+     "outputSeconds": [
       0.07,
       3.4
      ],
@@ -338,11 +477,11 @@
     {
      "id": "student",
      "template": "chips",
-     "source": [
+     "sourceSeconds": [
       4.11,
       7.63
      ],
-     "output_seconds": [
+     "outputSeconds": [
       3.53,
       7.07
      ],
@@ -359,11 +498,11 @@
     {
      "id": "needs",
      "template": "chatCard",
-     "source": [
+     "sourceSeconds": [
       8.05,
       14.08
      ],
-     "output_seconds": [
+     "outputSeconds": [
       7.5,
       13.03
      ],
@@ -382,11 +521,11 @@
     {
      "id": "limits",
      "template": "limitCard",
-     "source": [
+     "sourceSeconds": [
       14.75,
       19.85
      ],
-     "output_seconds": [
+     "outputSeconds": [
       13.03,
       17.27
      ],
@@ -403,11 +542,11 @@
     {
      "id": "price",
      "template": "priceCard",
-     "source": [
+     "sourceSeconds": [
       21.0,
       28.88
      ],
-     "output_seconds": [
+     "outputSeconds": [
       17.37,
       24.87
      ],
@@ -425,11 +564,11 @@
     {
      "id": "logo",
      "template": "logoReveal",
-     "source": [
+     "sourceSeconds": [
       30.38,
       35.15
      ],
-     "output_seconds": [
+     "outputSeconds": [
       26.37,
       30.17
      ],
@@ -446,11 +585,11 @@
     {
      "id": "code1",
      "template": "referral",
-     "source": [
+     "sourceSeconds": [
       35.15,
       40.71
      ],
-     "output_seconds": [
+     "outputSeconds": [
       30.17,
       33.97
      ],
@@ -465,11 +604,11 @@
     {
      "id": "hub",
      "template": "aiHub",
-     "source": [
+     "sourceSeconds": [
       42.07,
       53.18
      ],
-     "output_seconds": [
+     "outputSeconds": [
       34.23,
       44.7
      ],
@@ -490,16 +629,16 @@
     {
      "id": "panel",
      "template": "studentPanel",
-     "source": [
+     "sourceSeconds": [
       54.77,
       62.97
      ],
-     "output_seconds": [
+     "outputSeconds": [
       46.3,
       53.93
      ],
      "spoken": [
-      "و جدا از همه این موارد، پنل داره",
+      "پنل داره",
       "پنل دانشجویی داره",
       "که شما ازش استفاده بکنید",
       "برنامه‌ریزی بکنید، جزواتتون اونجا بذارید",
@@ -516,11 +655,11 @@
     {
      "id": "cta",
      "template": "ctaClick",
-     "source": [
+     "sourceSeconds": [
       63.74,
       70.75
      ],
-     "output_seconds": [
+     "outputSeconds": [
       53.93,
       60.0
      ],
@@ -537,64 +676,28 @@
     },
     {
      "id": "outro",
-     "template": "brandOutro(whip→logo→CFA→lens flare)",
-     "output_seconds": [
+     "template": "brandOutro (whip → logo → headline → CFA card → lens flare)",
+     "outputSeconds": [
       60.0,
       64.8
      ]
     }
-   ]
+   ],
+   "captions": []
   },
   "short": {
+   "file": "AIFekr-Academic-Influencer-CFA-Short.mp4",
    "durationSeconds": 37.57,
    "speechSeconds": 32.77,
-   "keptSourceSegments": [
-    [
-     0,
-     3.4
-    ],
-    [
-     3.98,
-     7.63
-    ],
-    [
-     20.95,
-     26.14
-    ],
-    [
-     26.49,
-     33.3
-    ],
-    [
-     54.77,
-     55.5
-    ],
-    [
-     56.08,
-     62.97
-    ],
-    [
-     63.74,
-     65.07
-    ],
-    [
-     65.52,
-     69.05
-    ],
-    [
-     69.55,
-     70.75
-    ]
-   ],
    "scenes": [
     {
      "id": "hook",
      "template": "hookHeadline",
-     "source": [
+     "sourceSeconds": [
       0.05,
       3.4
      ],
-     "output_seconds": [
+     "outputSeconds": [
       0.07,
       3.4
      ],
@@ -610,11 +713,11 @@
     {
      "id": "student",
      "template": "chips",
-     "source": [
+     "sourceSeconds": [
       4.11,
       7.63
      ],
-     "output_seconds": [
+     "outputSeconds": [
       3.53,
       7.07
      ],
@@ -631,11 +734,11 @@
     {
      "id": "price",
      "template": "priceCard",
-     "source": [
+     "sourceSeconds": [
       21.0,
       28.88
      ],
-     "output_seconds": [
+     "outputSeconds": [
       7.13,
       14.63
      ],
@@ -653,18 +756,17 @@
     {
      "id": "logo",
      "template": "logoReveal",
-     "source": [
+     "sourceSeconds": [
       30.38,
       35.15
      ],
-     "output_seconds": [
+     "outputSeconds": [
       16.13,
       19.07
      ],
      "spoken": [
       "یه هوش مصنوعی ایرانی داریم",
-      "به اسم ای‌آی‌فکر",
-      "شما می‌تونید از طریق کدی که من توی کپشن نوشتم"
+      "به اسم ای‌آی‌فکر"
      ],
      "sfx": [
       "pop",
@@ -674,16 +776,16 @@
     {
      "id": "panel",
      "template": "studentPanel",
-     "source": [
+     "sourceSeconds": [
       54.77,
       62.97
      ],
-     "output_seconds": [
+     "outputSeconds": [
       19.07,
       26.7
      ],
      "spoken": [
-      "و جدا از همه این موارد، پنل داره",
+      "پنل داره",
       "پنل دانشجویی داره",
       "که شما ازش استفاده بکنید",
       "برنامه‌ریزی بکنید، جزواتتون اونجا بذارید",
@@ -700,11 +802,11 @@
     {
      "id": "cta",
      "template": "ctaClick",
-     "source": [
+     "sourceSeconds": [
       63.74,
       70.75
      ],
-     "output_seconds": [
+     "outputSeconds": [
       26.7,
       32.77
      ],
@@ -721,40 +823,155 @@
     },
     {
      "id": "outro",
-     "template": "brandOutro(whip→logo→CFA→lens flare)",
-     "output_seconds": [
+     "template": "brandOutro (whip → logo → headline → CFA card → lens flare)",
+     "outputSeconds": [
       32.77,
       37.57
      ]
     }
+   ],
+   "captions": [
+    {
+     "outputSeconds": [
+      0.0,
+      1.33
+     ],
+     "text": "الان دیگه ChatGPT"
+    },
+    {
+     "outputSeconds": [
+      1.33,
+      3.4
+     ],
+     "text": "جزء جدانشدنی زندگی همه‌ی ما هست"
+    },
+    {
+     "outputSeconds": [
+      3.53,
+      5.13
+     ],
+     "text": "مخصوصاً اگه دانشجویی باشی"
+    },
+    {
+     "outputSeconds": [
+      5.13,
+      7.07
+     ],
+     "text": "که تازه مهاجرت کردی خارج کشور"
+    },
+    {
+     "outputSeconds": [
+      7.07,
+      9.57
+     ],
+     "text": "بعضاً هم اول مهاجرت حالا سخته"
+    },
+    {
+     "outputSeconds": [
+      9.57,
+      12.27
+     ],
+     "text": "اگه بخوای که مثلاً ماهی ۲۰ یورو"
+    },
+    {
+     "outputSeconds": [
+      12.27,
+      14.63
+     ],
+     "text": "فقط بابت تمدید اشتراک پرو هزینه بکنی"
+    },
+    {
+     "outputSeconds": [
+      14.63,
+      15.6
+     ],
+     "text": "راهکارش چیه؟"
+    },
+    {
+     "outputSeconds": [
+      16.13,
+      17.9
+     ],
+     "text": "یه هوش مصنوعی ایرانی داریم"
+    },
+    {
+     "outputSeconds": [
+      17.9,
+      19.07
+     ],
+     "text": "به اسم ای‌آی‌فکر"
+    },
+    {
+     "outputSeconds": [
+      19.07,
+      19.8
+     ],
+     "text": "پنل داره"
+    },
+    {
+     "outputSeconds": [
+      19.8,
+      20.9
+     ],
+     "text": "پنل دانشجویی داره"
+    },
+    {
+     "outputSeconds": [
+      20.9,
+      22.33
+     ],
+     "text": "که شما ازش استفاده بکنید"
+    },
+    {
+     "outputSeconds": [
+      22.33,
+      24.47
+     ],
+     "text": "برنامه‌ریزی بکنید، جزواتتون اونجا بذارید"
+    },
+    {
+     "outputSeconds": [
+      24.47,
+      26.7
+     ],
+     "text": "و کلی امکان خفن دیگه"
+    },
+    {
+     "outputSeconds": [
+      26.7,
+      28.03
+     ],
+     "text": "که کافیه کلیک بکنید"
+    },
+    {
+     "outputSeconds": [
+      28.03,
+      30.43
+     ],
+     "text": "لینک معرفی ما رو وارد بکنید"
+    },
+    {
+     "outputSeconds": [
+      30.43,
+      32.77
+     ],
+     "text": "و از امکاناتش به رایگان استفاده کنید"
+    }
    ]
   },
   "story": {
+   "file": "AIFekr-Academic-Influencer-CFA-Story.mp4",
    "durationSeconds": 13.8,
    "speechSeconds": 8.4,
-   "keptSourceSegments": [
-    [
-     30.3,
-     33.3
-    ],
-    [
-     54.77,
-     55.5
-    ],
-    [
-     56.08,
-     60.75
-    ]
-   ],
    "scenes": [
     {
      "id": "storyHook",
      "template": "hookHeadline",
-     "source": [
+     "sourceSeconds": [
       30.3,
       32.4
      ],
-     "output_seconds": [
+     "outputSeconds": [
       0.0,
       2.1
      ],
@@ -769,18 +986,17 @@
     {
      "id": "logo",
      "template": "logoReveal",
-     "source": [
+     "sourceSeconds": [
       30.38,
       35.15
      ],
-     "output_seconds": [
+     "outputSeconds": [
       0.07,
       3.0
      ],
      "spoken": [
       "یه هوش مصنوعی ایرانی داریم",
-      "به اسم ای‌آی‌فکر",
-      "شما می‌تونید از طریق کدی که من توی کپشن نوشتم"
+      "به اسم ای‌آی‌فکر"
      ],
      "sfx": [
       "pop",
@@ -790,20 +1006,19 @@
     {
      "id": "panel",
      "template": "studentPanel",
-     "source": [
+     "sourceSeconds": [
       54.77,
       62.97
      ],
-     "output_seconds": [
+     "outputSeconds": [
       3.0,
       8.4
      ],
      "spoken": [
-      "و جدا از همه این موارد، پنل داره",
+      "پنل داره",
       "پنل دانشجویی داره",
       "که شما ازش استفاده بکنید",
-      "برنامه‌ریزی بکنید، جزواتتون اونجا بذارید",
-      "و کلی امکان خفن دیگه"
+      "برنامه‌ریزی بکنید، جزواتتون اونجا بذارید"
      ],
      "sfx": [
       "whoosh",
@@ -815,11 +1030,55 @@
     },
     {
      "id": "outro",
-     "template": "brandOutro(whip→logo→CFA→lens flare)",
-     "output_seconds": [
+     "template": "brandOutro (whip → logo → headline → CFA card → lens flare)",
+     "outputSeconds": [
       8.4,
       13.8
      ]
+    }
+   ],
+   "captions": [
+    {
+     "outputSeconds": [
+      0.07,
+      1.83
+     ],
+     "text": "یه هوش مصنوعی ایرانی داریم"
+    },
+    {
+     "outputSeconds": [
+      1.83,
+      3.0
+     ],
+     "text": "به اسم ای‌آی‌فکر"
+    },
+    {
+     "outputSeconds": [
+      3.0,
+      3.73
+     ],
+     "text": "پنل داره"
+    },
+    {
+     "outputSeconds": [
+      3.73,
+      4.83
+     ],
+     "text": "پنل دانشجویی داره"
+    },
+    {
+     "outputSeconds": [
+      4.83,
+      6.27
+     ],
+     "text": "که شما ازش استفاده بکنید"
+    },
+    {
+     "outputSeconds": [
+      6.27,
+      8.4
+     ],
+     "text": "برنامه‌ریزی بکنید، جزواتتون اونجا بذارید"
     }
    ]
   }
